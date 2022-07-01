@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+    background: #f1f1f1;
+    font-size: 16px;
+    font-family: "roboto", sans-serif;
+    font-weight: normal;
+    color: #0f141e;
+}
+
+.container{
+    margin: auto;
+    max-width: 800px;
+    padding-top: 30px;
+}
+
+.info{
+    margin-bottom: 10px;
+}
+
+.info-text li {
+    font-style: initial;
+    font-weight: bold;
+    color: #0f141e;
+}
+
+h1{
+    color: green;
+}
+
+h3{
+    margin-bottom: 10px;
+    /* background: rgba(170, 233, 162, 0.2); */
+    color: rgb(53, 53, 121);
+}
+
+.card{
+    margin-bottom: 10px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    padding-top: 0px;
+    border: 1px solid rgb(93, 228, 228);
+    border-radius: 10px;
+}
+
+.bg-green{
+    background-color: rgb(200, 243, 243);
+}
+
+.bg-red{
+    background-color: rgb(238, 195, 195);
+}
+
+.bg-yellow{
+    background-color: rgb(241, 241, 194);
+}
+
+.avatar{
+    width: 200px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.5);
+    border-radius:20px;
+}
+
+.btn{
+    background-color:#000 ;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-family: inherit;
+}
+
+.btn:hover{
+    opacity: .8;
+    
+}
+
+.btn:active{
+    color: orange;
+}
+
+a{
+    background-color: #000;
+    color: #fff;
+    border-radius: 5px;
+    margin-bottom: 0px;
+    padding: 3px;
+    text-decoration: none;
+}
+
+a:hover{
+    opacity: .8
+}
+
+a:active{
+    color: orange;
+}

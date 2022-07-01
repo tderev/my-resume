@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="CV, resume, frontend developer">
+    <meta name="description" content="Это сайт-резюме Тараса Деревянко">
+    <title>Taras' resume</title>
+    
+        <link rel="stylesheet" href="CV_style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="info"> <img  src="avatar.jpg" alt="мое фото" class="avatar">
+                
+            <div class="info-text"><H1>Тарас Деревянко</H1>
+
+                <div><p>  Я 21 год работал инженером конструктором.
+                            Разрабатывал конструкции литьевых прресс-форм. 
+                            Для разработки использовал САПР SolidWorks.
+                <br>
+                        Теперь решил сменить профессию- стать фронтенд разработчиком</p>
+                 </div> 
+
+                <div class="card bg-red"><h3>Мои хобби:</h3> 
+                    <ul>
+                        <li><em> программирование</em></li>
+                        <li><em> фотография</em></li>
+                        <li><em> велопрогулки</em></li>
+                    </ul>  
+                </div>
+                    
+                <div class="card bg-yellow"> <h3>Я в соцсетях:</h3>
+                        <a href="https://t.me/Der_Tar" target="_blank">Telrgram</a>
+                        <a href="https://github.com/tderev" target="_blank">Github</a>
+                </div>
+            </div>
+                
+            <div class="card bg-green"><h3>Опыт работы</h3>
+                <table width="500" >
+                    <thead>
+                        <tr>
+                            <th>Название</th>
+                            <th>Должность</th>
+                            <th>Год</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td> ДГТУ</td>
+                            <td>Студент</td>
+                            <td>1996-2001</td>
+                        </tr>
+                        <tr>
+                            <td> Спецтехоснастка</td>
+                            <td>Инженер-конструктор</td>
+                            <td>2001-сейчас</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+            <h3>Связаться со мной</h3>
+
+            <form action="/">
+
+                <div>
+                    <label for="name">Ваше имя:</label>
+                    <input type="text" id="name" placeholder="Введите имя">
+                </div>
+
+                <div>
+                    <label for="email">Ваше email:</label>
+                    <input type="email" id="email" placeholder="Введите email"> 
+                </div>
+
+                <div>
+                    <label for="message">Ваше сообщение</label>
+                    <br>
+                <textarea id="message" cols="20" rows="5" placeholder="Введите сообщение..."></textarea>
+                </div>
+                
+                <input class="btn" type="submit" value="Отправить!">
+ 
+
+            </form> 
+    </div>
+            
+</body>
+</html>
