@@ -45,6 +45,7 @@ h3{
 
 .bg-green{
     background-color: rgb(200, 243, 243);
+    min-width: fit-content;
 }
 
 .bg-red{
