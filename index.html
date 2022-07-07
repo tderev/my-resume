@@ -11,17 +11,20 @@
 </head>
 
 <body>
-    <div class="container">
-        <div class="info"> <img  src="avatar.jpg" alt="мое фото" class="avatar">
-                
-            <div class="info-text"><H1>Тарас Дерев'янко</H1>
+    <div class="container"> 
+            <div class="info">
+                    <img  src="avatar.jpg" alt="мое фото" class="avatar">
+                    <div class="info-text"><H1>Тарас Дерев'янко</H1>
 
-                <div><p>  Я 21 рік працював інженером-конструктором.
-                            Створював конструкції прес-форм для лиття. 
-                            Для розробки використовував САПР SolidWorks.
-                <br>
-                        Наразі вирішив змінити професію- стати фронтенд розробником.</p>
-                 </div> 
+                        <p>  Я 21 рік працював інженером-конструктором.
+                                    Створював конструкції прес-форм для лиття. 
+                                    Для розробки використовував САПР SolidWorks.
+                        <!-- <br> -->
+                                Наразі вирішив змінити професію- стати фронтенд розробником.</p>
+                        
+                    </div>
+            </div> 
+    
 
                 <div class="card bg-red"><h3>Мої хобі:</h3> 
                      <ul class="list">
@@ -35,17 +38,17 @@
                         <a href="https://t.me/Der_Tar" target="_blank">Telrgram</a>
                         <a href="https://github.com/tderev" target="_blank">Github</a>
                 </div>
-            </div>
+            
                 
             <div class="card bg-green"><h3>Досвід роботи</h3>
-                <table width="500" >
-                    <thead>
+                <table class="table" >
+                    <!-- <thead>
                         <tr>
                             <th>Назва</th>
                             <th>Посада</th>
                             <th>Рік</th>
                         </tr>
-                    </thead>
+                    </thead> -->
                     <tbody>
                         <tr>
                             <td> ДДТУ</td>
@@ -60,26 +63,24 @@
                     </tbody>
                 </table>
             </div>
-        </div>
+        
+            <form action="/" class="form">
 
-            <h3>Зв'язатися зі мною</h3>
+                <h3>Зв'язатися зі мною</h3>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="name">Ваше ім'я:</label>
+                        <input type="text" id="name" placeholder="Введіть ім'я">
+                    </div>
 
-            <form action="/">
-
-                <div>
-                    <label for="name">Ваше ім'я:</label>
-                    <input type="text" id="name" placeholder="Введіть ім'я">
+                    <div class="form-group">
+                        <label for="email">Ваш email:</label>
+                        <input type="email" id="email" placeholder="Введіть email"> 
+                    </div>
                 </div>
-
-                <div>
-                    <label for="email">Ваш email:</label>
-                    <input type="email" id="email" placeholder="Введіть email"> 
-                </div>
-
-                <div>
+                <div class="form-group">
                     <label for="message">Ваше повідомлення</label>
-                    <br>
-                <textarea id="message" cols="20" rows="5" placeholder="Введіть повідомлення..."></textarea>
+                    <textarea id="message" cols="20" rows="5" placeholder="Введіть повідомлення..."></textarea>
                 </div>
                 
                 <input class="btn"  type="submit" value="Відправити!" >
